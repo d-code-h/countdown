@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary CountDown</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        margin-bottom: 5rem;
+        padding: 0;
+        font-family: sans-serif;
+        background: #f1f1f1;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+        background: #800080;
+        color: #fff;
+      }
+      a {
+        font-size: 1rem;
+        display: none;
+        margin-top: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Binary Computers LTD.</h1>
+    <a
+      href="https://logwork.com/countdown-x4pa"
+      class="countdown-timer"
+      data-timezone="Africa/Lagos"
+      data-date="2023-01-01 00:00"
+      data-textcolor="#800080"
+      data-unitscolor="#800080"
+      data-digitscolor="#800080"
+      data-background="#ffffff"
+      >We are coming soon!!!</a
+    >
+
+    <a
+      href="https://logwork.com/countdown-x4pk"
+      class="countdown-timer"
+      data-style="circles"
+      data-timezone="Africa/Lagos"
+      data-textcolor="#800080"
+      data-date="2023-01-01 00:00"
+      data-background="#800080"
+      data-digitscolor="#800080"
+      data-unitscolor="#800080"
+      >We are coming soon!!!</a
+    >
+
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+    <script>
+      document.querySelectorAll('a').forEach((each) => {
+        each.addEventListener('click', function (e) {
+          e.preventDefault();
+        });
+      });
+    </script>
+  </body>
+</html>
